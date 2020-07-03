@@ -3,7 +3,7 @@
     <h3>Active Proposals</h3>
     <oapps-proposal 
       v-for="proposal in proposals" 
-      :key="proposal" 
+      :key="proposal.id" 
       :proposal="proposal"></oapps-proposal>
   </div>
 </template>

@@ -132,3 +132,5 @@ export const proposals = [
         ]
     }
 ];
+
+//id format for future: (sy)(orgnumber)(increment)
