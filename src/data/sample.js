@@ -1,4 +1,4 @@
-const proposals = [
+export const proposals = [
     {
         id: 1,
         name: 'sample1',
@@ -12,32 +12,32 @@ const proposals = [
         submissionData: 'some date',
         stage: [
             {
-                name: treasurer,
+                name: 'treasurer',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: secgen,
+                name: 'secgen',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: pres,
+                name: 'pres',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: ap,
+                name: 'ap',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: p,
+                name: 'p',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: d,
+                name: 'd',
                 status: 'accepted',
                 date: 'some date'
             }
@@ -56,32 +56,32 @@ const proposals = [
         submissionData: 'some date',
         stage: [
             {
-                name: treasurer,
+                name: 'treasurer',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: secgen,
+                name: 'secgen',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: pres,
+                name: 'pres',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: ap,
+                name: 'ap',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: p,
+                name: 'p',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: d,
+                name: 'd',
                 status: 'accepted',
                 date: 'some date'
             }
@@ -100,37 +100,35 @@ const proposals = [
         submissionData: 'some date',
         stage: [
             {
-                name: treasurer,
+                name: 'treasurer',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: secgen,
+                name: 'secgen',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: pres,
+                name: 'pres',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: ap,
+                name: 'ap',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: p,
+                name: 'p',
                 status: 'accepted',
                 date: 'some date'
             },
             {
-                name: d,
+                name: 'd',
                 status: 'accepted',
                 date: 'some date'
             }
         ]
     }
 ];
-
-export default proposals;
