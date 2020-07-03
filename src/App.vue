@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <oapps-header></oapps-header>
+    <oapps-home></oapps-home>
+    <oapps-sidebar></oapps-sidebar>
   </div>
 </template>
 
@@ -13,7 +14,9 @@ import Sidebar from './components/Sidebar.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    oappsHome: Home,
+    oappsHeader: Header,
+    oappsSidebar: Sidebar
   }
 }
 </script>
