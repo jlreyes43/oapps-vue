@@ -6,7 +6,9 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
+import Header from './components/Header.vue'
+import Sidebar from './components/Sidebar.vue'
 
 export default {
   name: 'App',
