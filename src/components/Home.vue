@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>Home Component</h1>
-    <oapps-proposal v-for="proposal in proposals" :key="proposal" :proposal="proposal"></oapps-proposal>
+    <oapps-proposal 
+      v-for="proposal in proposals" 
+      :key="proposal" 
+      :proposal="proposal"></oapps-proposal>
   </div>
 </template>
 

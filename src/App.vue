@@ -4,8 +4,8 @@
       <oapps-header class="col-12"></oapps-header>
     </div>
     <div class="row">
-      <oapps-sidebar class="col-3 outline"></oapps-sidebar>
-      <oapps-home class="col-9 outline"></oapps-home>
+      <oapps-sidebar class="col-3"></oapps-sidebar>
+      <oapps-home class="col-9"></oapps-home>
     </div>
   </div>
 </template>
@@ -30,7 +30,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
