@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Sidebar Component</h1>
+    <h3>Sidebar Component</h3>
   </div>
 </template>
 

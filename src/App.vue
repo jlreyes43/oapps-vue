@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container-fluid outline">
+  <div id="app" class="container-fluid">
     <div class="row">
       <oapps-header class="col-12"></oapps-header>
     </div>

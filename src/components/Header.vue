@@ -1,5 +1,5 @@
 <template>
-  <div class="header-color">
+  <div class="header-color mb-4">
     <p class="text-light">OAPPS</p>
   </div>
 </template>

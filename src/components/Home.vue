@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Home Component</h1>
+    <h3>Active Proposals</h3>
     <oapps-proposal 
       v-for="proposal in proposals" 
       :key="proposal" 

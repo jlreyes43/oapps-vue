@@ -7,7 +7,7 @@ export const proposals = [
             rep: 'Aethan',
             contact: 'some contact',
         },
-        nature: 'this is a very long string',
+        nature: 'this is a very long string for sample 1',
         activityDate: 'some date',
         submissionData: 'some date',
         stage: [
@@ -51,7 +51,7 @@ export const proposals = [
             rep: 'Psycho na Aethan',
             contact: 'some contact',
         },
-        nature: 'this is a very long string',
+        nature: 'this is a very long string for sample 2',
         activityDate: 'some date',
         submissionData: 'some date',
         stage: [
@@ -95,7 +95,7 @@ export const proposals = [
             rep: 'Sporty na Aethan',
             contact: 'some contact',
         },
-        nature: 'this is a very long string',
+        nature: 'this is a very long string for sample 3',
         activityDate: 'some date',
         submissionData: 'some date',
         stage: [
