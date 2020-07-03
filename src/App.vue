@@ -1,8 +1,12 @@
 <template>
-  <div id="app">
-    <oapps-header></oapps-header>
-    <oapps-home></oapps-home>
-    <oapps-sidebar></oapps-sidebar>
+  <div id="app" class="container-fluid outline">
+    <div class="row">
+      <oapps-header class="col-12"></oapps-header>
+    </div>
+    <div class="row">
+      <oapps-sidebar class="col-3 outline"></oapps-sidebar>
+      <oapps-home class="col-9 outline"></oapps-home>
+    </div>
   </div>
 </template>
 
@@ -28,6 +32,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.outline{
+  outline: 1px black solid;
 }
 </style>
