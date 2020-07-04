@@ -3,12 +3,13 @@
     <div class="col-3">
       <oapps-sidebar></oapps-sidebar>
     </div>
-    <div class="col-9">
+    <div class="col-9" style="cursor: pointer;">
       <h3>Active Proposals</h3>
       <oapps-proposal 
         v-for="proposal in proposals" 
         :key="proposal.id" 
-        :proposal="proposal"></oapps-proposal>
+        :proposal="proposal">
+      </oapps-proposal>
     </div>
   </div>
 </template>
