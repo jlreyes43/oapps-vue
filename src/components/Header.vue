@@ -1,7 +1,7 @@
 <template>
   <div class="header-color d-flex align-items-center row">
     <p class="oapps-title no-gutter col-10" @click="toHome" style="cursor: pointer;">OAPPS</p>
-    <p class="text-white no-gutter col-2">placeholder</p>
+    <p class="text-white no-gutter col-2" @click="toForm" style="cursor: pointer;">+</p>
   </div>
 </template>
 
@@ -9,7 +9,10 @@
 export default {
     methods:{
         toHome(){
-            this.$router.push({path: '/'});
+          this.$router.push({path: '/'});
+        },
+        toForm(){
+          this.$router.push({path: '/proposal/form'});
         }
     }
 }
